@@ -28,7 +28,7 @@ class OrderPage extends StatelessWidget {
                   child: Image.asset(
                     'assets/images/01.jpg',
                     width: double.infinity,
-                    height: 250,
+                    height: 240,
                     fit: BoxFit.cover,
                   ),
                 ),
