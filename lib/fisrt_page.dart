@@ -1,12 +1,14 @@
 import 'package:flutter/material.dart';
- 
+
 class MyApp1 extends StatelessWidget {
+  const MyApp1({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Pizza App'),
+          title: const Text('Pizza App'),
         ),
         body: Center(
           child: Column(
@@ -16,10 +18,10 @@ class MyApp1 extends StatelessWidget {
                 onPressed: () {
                   // Logic for adding to cart
                 },
-                child: Text('إضافة إلى السلة'),
+                child: const Text('إضافة إلى السلة'),
               ),
-              SizedBox(height: 16),
-              Text(
+              const SizedBox(height: 16),
+              const Text(
                 'السعر: EGP 420',
                 style: TextStyle(
                   fontSize: 18,
